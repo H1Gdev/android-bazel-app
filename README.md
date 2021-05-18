@@ -1,0 +1,5 @@
+# Gradle
+
+```sh
+./gradlew assembleDebug
+```
