@@ -18,5 +18,7 @@ android_binary(
     deps = [
         "@maven//:androidx_appcompat_appcompat",
         "@maven//:androidx_constraintlayout_constraintlayout",
+        "@maven//:org_pytorch_pytorch_android",
+        "@maven//:org_pytorch_pytorch_android_torchvision",
     ],
 )

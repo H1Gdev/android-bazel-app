@@ -29,12 +29,15 @@ maven_install(
     artifacts = [
         "androidx.appcompat:appcompat:aar:1.2.0",
         "androidx.constraintlayout:constraintlayout:2.0.4",
+        "org.pytorch:pytorch_android:1.9.0-SNAPSHOT",
+        "org.pytorch:pytorch_android_torchvision:1.9.0-SNAPSHOT",
     ],
     repositories = [
         "https://jcenter.bintray.com",
         "https://maven.google.com",
         "https://dl.google.com/dl/android/maven2",
         "https://repo1.maven.org/maven2",
+        "https://oss.sonatype.org/content/repositories/snapshots",
     ],
     fetch_sources = True,
     version_conflict_policy = "pinned",
